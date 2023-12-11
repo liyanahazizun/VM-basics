@@ -32,7 +32,7 @@ Microsoft-Hyper-V-All Disabled
 Follow [these steps](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to have it enabled.
 
 ## Installation
-For this guide, I will be installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+For this guide, I will be installing [VirtualBoptimizing//www.virtualbox.org/wiki/Downloads).
 > [!TIP]
 > While downloading, you can check the SHA256 checksums to make sure that your file has not been altered during the download.
 
@@ -54,7 +54,19 @@ SHA256          9769BAE970244249E043BDE9C74D704D25A80773ACCED5C59A04DF64A10A5DB7
 ### To Install:
 - Double-click on the VirtualBox file and click "Next" until you see this pop-up.
 - You can customize the features you want to download. Otherwise, all features will be downloaded by default.
-- Here, you can also choose where you want your VirtualBox to be installed in.
+- Here, you can also choose where you want your VirtualBox to be installed.
 <img src="https://github.com/liyanahazizun/VM-basics/assets/80376369/4ddb9c79-faf5-4995-b5f3-413e86474d93" width="500" height="400">
 
 - Continue to click "Yes" or "Next" until you see the "Install" button and click that to install.
+
+Now that we have VirtualBox installed, the next step is to create a virtual machine using the desired OS.
+
+## Guest OS
+
+The great thing about virtualization is that you can install and experiment with multiple OSs. In virtualization, generally, one operating system (OS) corresponds to one virtual machine (VM). Each VM runs its own instance of an operating system, and the resources allocated to that VM are dedicated to running that specific OS.
+
+## VM Configuration
+## Questions
+A list of questions I had throughout my learning about VMs
+
+1.  
