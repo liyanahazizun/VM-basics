@@ -32,7 +32,7 @@ Microsoft-Hyper-V-All Disabled
 Follow [these steps](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v) to have it enabled.
 
 ## Installation
-For this guide, I will be installing [VirtualBoptimizing//www.virtualbox.org/wiki/Downloads).
+For this guide, I will be installing [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 > [!TIP]
 > While downloading, you can check the SHA256 checksums to make sure that your file has not been altered during the download.
 
