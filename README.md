@@ -99,7 +99,7 @@ For this documentation, I will be installing Windows 10.
 ## Questions
 A list of questions I had throughout my learning about VMs
 
-**1.  Q: Can VM be installed on an external an external hard disk?**
+**1.  Q: Can VM be installed on an external hard disk?**
     
 Yes, a VM can be installed on an external hard disk. Most virtualization platforms allow choosing the location where VM files, including the virtual hard disk file and configuration files, are stored.
 
