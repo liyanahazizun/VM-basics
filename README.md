@@ -135,6 +135,15 @@ Yes, it can. After following the installation steps above, you will be presented
 
 Yes, once you have successfully installed the operating system on your virtual machine using the ISO file, you can delete the ISO file from your laptop. The ISO file is only needed during the installation process. However, so that you know, you will need to use the ISO file every time you create a new VM. If you plan to create multiple VMs with the same OS, save the ISO file externally so you have it whenever you need it instead of installing it every single time.
 
+**4. What are the storage options to run and store my VMs?**
+
+So, I did a little bit of research. As mentioned in previous questions, it is possible to store and run VMs from an external source. However, there will be compromises in terms of performance. Therefore, SSDs are way superior to HDDs. Cost-wise, SSDs are more expensive. I found another solution to that, which is to get an SSD with an enclosure.
+
+An "external SSD" and an "SSD with enclosure" essentially refer to the same thing — an internal SSD housed in an external casing, typically with a USB or other compatible interface for external connectivity. If you opt to get an "SSD with enclosure", you will need to make sure that the enclosure you get is compatible with the SSD.
+
+The other thing that needs to be considered is the interfaces used for connecting storage devices. There are two types of SSDs: NVMe and SATA. SATA SSDs are not as fast as NVMe SSDs, but for personal projects and home labs, the difference in speed might not be a critical factor. Therefore, a SATA SSD with a USB enclosure is likely a practical and cost-effective choice.
+
+
 
 
 
