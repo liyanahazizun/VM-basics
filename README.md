@@ -79,8 +79,9 @@ For this documentation, I will be installing Windows 10.
 - At the **"ISO Image"** section, select **"Other..."** and navigate through your directory to select the Windows ISO file that was installed.
 - To configure the OS manually, click on the checkbox that says **"Skip unintended installation."**
 > [!NOTE]
-> Unintended installation enables you to install the OS on a virtual machine automatically. If you have the box unchecked, you will need to set up the required parameters for unattended guest OS installation in the next step. The parameters are **Username and Password, Guest Additions and Additional Options, which include Product Key, Hostname and Domain Name.** 
+> Unintended installation enables automatic installation of the OS. If you have the box unchecked, you will need to set up the required parameters for unattended guest OS installation in the next step. The parameters are **Username and Password, Guest Additions and Additional Options, which include Product Key, Hostname and Domain Name.** 
 
+- Next, modify the VM's hardware (RAM and CPU) specifications. 
 - Click on **"Finish"** when you're done.
 #### Setting up the OS
 - Click on the **"Start"** button.
@@ -88,13 +89,23 @@ For this documentation, I will be installing Windows 10.
 - Select **"Install Now"**.
 - On the Activate Windows page, choose **"I don't have a product key"** and click on **"Next"** and then choose the Windows 10 variation you want to install. I installed the Windows 10 Pro.
 - Click on **"Next"** and click **"Accept the license terms"**.
-- Click on **"Next"**, and you will see a page in which you can choose the type of installation. I chose the **"Custom: Install Windows only"**.
+- Click on **"Next"**, and you will see a page in which you can choose the type of installation. I chose the **"Custom: Install Windows only"** and DONE!
 
-<!--
 ### Kali Linux Installation
+- I would recommend downloading the [pre-built Kali images](https://www.kali.org/get-kali/#kali-virtual-machines) for VM. However, you can manually download Kali Linux using the [ISO file](https://www.kali.org/get-kali/#kali-installer-images).
+- Depending on your machine, download the 64-bit or 32-bit version for VirtualBox. To check machine specification, run the following in **Command Prompt**:
+```
+echo %PROCESSOR_ARCHITECTURE%
+```
+> [!CAUTION]
+> The Kali Linux image file is approximately 3 GB in size. Before starting the download, ensure that your device has sufficient available storage space. I recommend having a strong and stable internet connection to prevent interruptions during the download process. If your device has limited storage, consider downloading the file to an external storage device for convenience.
 
-## VM Configuration
--->
+#### Setting up the OS
+- To set up the OS in VirtualBox, we first need to extract the file.
+- Once the file has been extracted, navigate into the folder and double-click on the file with the `.vbox` extension. It will automatically be imported into VirtualBox.
+>[!NOTE]
+> The default login credentials for Kali are as follows: the username is "kali," and the password is also set to "kali." 
+
 
 ## Questions
 A list of questions I had throughout my learning about VMs
