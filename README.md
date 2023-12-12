@@ -1,6 +1,9 @@
 # How-To: VM Home Lab
 This is a compilation of fundamental basics on Virtual Machines (VMs) that I learned before starting my home lab journey. This post serves as my personal reference guide for navigating the initial steps in building and managing VMs for my home lab.
 
+>[!IMPORTANT]
+>I am a beginner in the realm of VM installation and management, and this guide reflects my personal research and experiences. There might be inaccuracies or errors, so proceed with caution. This document is intended to serve as a record of my own journey in installing VMs, and it may not cover every scenario or account for the latest developments in virtualization technology. Suggestions for corrections or improvements are warmly welcomed, and users are encouraged to verify the information independently. Use this guide as a starting point and exercise due diligence in adapting it to your specific circumstances.
+
 ## Hypervisors
 The first component that is very important in building a home lab is a hypervisor. A hypervisor (or Virtual Machine Monitor - VMM) is software or hardware that creates and runs virtual machines on a physical computer. Its primary function is to abstract and share the underlying hardware resources among multiple virtual machines, allowing them to run independently as if they were on separate physical machines. There are two types of hypervisors:
 
