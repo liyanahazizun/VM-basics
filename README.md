@@ -19,8 +19,8 @@ Being unemployed and also a recent graduate, naturally, I tend to look for free 
 
 If you are running on Windows 10/11 Pro, chances are you already have Hyper-V installed on your computer.
 ### To Check:
-- Open up "Command Prompt" (run as Admin) or "Windows PowerShell".
-- In the PowerShell or Command Prompt window, type:
+- Open up "Windows PowerShell" (run as Admin).
+- In the PowerShell window, type:
 
 ```
 Get-WindowsOptionalFeature -FeatureName Microsoft-Hyper-V-All -Online | Select-Object FeatureName, State
